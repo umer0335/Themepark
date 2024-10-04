@@ -1,0 +1,770 @@
+Unity Editor version:    2022.3.44f1 (c3ae09b9f03c)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.0 (Build 24A335)
+Darwin version:          24.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/umertahir/Desktop/comp 325/project02 final
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57513
+Successfully changed project path to: /Users/umertahir/Desktop/comp 325/project02 final
+/Users/umertahir/Desktop/comp 325/project02 final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8308634176]  Target information:
+
+Player connection [8308634176]  * "[IP] 10.20.93.220 [Port] 0 [Flags] 2 [Guid] 3417045235 [EditorId] 3417045235 [Version] 1048832 [Id] OSXEditor(0,Umers-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8308634176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8308634176] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 18.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/umertahir/Desktop/comp 325/project02 final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56839
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.44f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005591 seconds.
+- Loaded All Assemblies, in  0.479 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.313 seconds
+Domain Reload Profiling: 793ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (202ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (314ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (252ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.758 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.712 seconds
+Domain Reload Profiling: 1465ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (517ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (199ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (712ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (545ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (449ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3147 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (49.5 KB). Loaded Objects now: 3630.
+Memory consumption went from 140.1 MB to 140.1 MB.
+Total: 3.537959 ms (FindLiveObjects: 0.143292 ms CreateObjectMapping: 0.059041 ms MarkObjects: 3.251000 ms  DeleteObjects: 0.084042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20594.909993 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_Black_02 Variant.prefab
+  artifactKey: Guid(0457efd640048164aa187b5a6b8d1e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_Black_02 Variant.prefab using Guid(0457efd640048164aa187b5a6b8d1e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a092f5e53da14cc8bb8ffa334720b32c') in 0.316539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1043
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '871f5679877c4b9f49f6576da2725af2') in 0.100099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Mesh/LP_Horse_Mesh_2_9.fbx
+  artifactKey: Guid(12d878159cd1a3e43a1401d93cf78c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Mesh/LP_Horse_Mesh_2_9.fbx using Guid(12d878159cd1a3e43a1401d93cf78c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '77d9c5b766ddf086ed00b6d73ec97910') in 0.126067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 531
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_White_01 Variant.prefab
+  artifactKey: Guid(2d11bb114cfadab4c8c2aed4766fb84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_White_01 Variant.prefab using Guid(2d11bb114cfadab4c8c2aed4766fb84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd8c9c0bb642cd32f4b53743355075e9c') in 0.024916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1043
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_Tan_01 Variant.prefab
+  artifactKey: Guid(13ae4fb2f16426a49906957119a1478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_Tan_01 Variant.prefab using Guid(13ae4fb2f16426a49906957119a1478b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd3f6f2ce6d2bb0bf52c143be357cf501') in 0.080865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1043
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_TerrainAutoUpgrade/Fantasy Forest Environment Free Sample/Materials/dirt01.mat
+  artifactKey: Guid(02f626fd2f11216458890862c5864d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/Fantasy Forest Environment Free Sample/Materials/dirt01.mat using Guid(02f626fd2f11216458890862c5864d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fd4cef582a8f31dd934bc30f969df130') in 0.253663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/LPHorse_Version_2_9/DemoAssets/DemoSkybox.mat
+  artifactKey: Guid(0fc5c0046b7d55a45af07d3ad537acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/DemoAssets/DemoSkybox.mat using Guid(0fc5c0046b7d55a45af07d3ad537acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '077f0384641c3c0a03eae7ef9e66c45b') in 0.413018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_Chestnut_02 Variant.prefab
+  artifactKey: Guid(d233989bde85dc14d844173f3dcd4c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_Chestnut_02 Variant.prefab using Guid(d233989bde85dc14d844173f3dcd4c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cb30636533c648998d0dc98a60555a83') in 0.023921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1043
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Red.fbx
+  artifactKey: Guid(e9b20f339e41d42409993f01aec5ac61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Red.fbx using Guid(e9b20f339e41d42409993f01aec5ac61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8386cea92cb07ddf8dde144c7fd69358') in 0.034262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
+  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c649d04b10164abee068ef2eb28a3185') in 0.125941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled With ReactiveRider/LPHorse_RR_Black_02.prefab
+  artifactKey: Guid(e012ee729d70bef4d96f392597dce999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled With ReactiveRider/LPHorse_RR_Black_02.prefab using Guid(e012ee729d70bef4d96f392597dce999) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c717a283bdefa52d6bfe670599c7da59') in 0.087305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1097
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_Tan_01.prefab
+  artifactKey: Guid(4241fc939cf24a740983092f2aed5837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_Tan_01.prefab using Guid(4241fc939cf24a740983092f2aed5837) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49634854eda0fbce6b2ce6c7804ce79f') in 0.034130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1579
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '78bc849bba070de7f3b04122edb96a46') in 0.587744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Yellow.fbx
+  artifactKey: Guid(b16ba7bf9e24764469c69d2b339a7680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Yellow.fbx using Guid(b16ba7bf9e24764469c69d2b339a7680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c68efe9560b98ba5f94d43018533d2d') in 0.011140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_Tan_02 Variant.prefab
+  artifactKey: Guid(03970aa160d51df4aabcc6eb43880f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_Tan_02 Variant.prefab using Guid(03970aa160d51df4aabcc6eb43880f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '146d329e5f7ad06b9c4d5f8cc20c9f9b') in 0.024296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1043
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled With ReactiveRider/LPHorse_RR_Brown_01.prefab
+  artifactKey: Guid(a4def336d4cddcf47ae708cc8f420932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled With ReactiveRider/LPHorse_RR_Brown_01.prefab using Guid(a4def336d4cddcf47ae708cc8f420932) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b1cf8b6d28e01699cff428af0c5945fb') in 0.027367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1097
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_White.fbx
+  artifactKey: Guid(4a64f5e7a1e0d9a4884883d74c91f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_White.fbx using Guid(4a64f5e7a1e0d9a4884883d74c91f936) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ec0b58b27a912f78e071feb8cd4654e0') in 0.012676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Orange.fbx
+  artifactKey: Guid(ce69d3c7a4f70ae40b6f97416c93c2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Orange.fbx using Guid(ce69d3c7a4f70ae40b6f97416c93c2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3d456a0a1ee5087086398e3421e3bd95') in 0.009415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Drone/Art/material/blue.mat
+  artifactKey: Guid(3ed809d028eefbb4ca5472e0a5c732a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Art/material/blue.mat using Guid(3ed809d028eefbb4ca5472e0a5c732a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '26c2e3f93d1d976b52f3abbd5afcfbf7') in 0.029827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/ReactiveRider/Mecanim_Prototyper/mecanim_prototyper.fbx
+  artifactKey: Guid(6a9c2405d8ca59c46bdecc4a5fb6cfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/ReactiveRider/Mecanim_Prototyper/mecanim_prototyper.fbx using Guid(6a9c2405d8ca59c46bdecc4a5fb6cfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '41d134126f1628411de5f1e246fbb008') in 0.055704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 167
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/ReactiveRider/Animations/ChestTwist.fbx
+  artifactKey: Guid(30f09bdfe2303c24bb60b1db701aed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/ReactiveRider/Animations/ChestTwist.fbx using Guid(30f09bdfe2303c24bb60b1db701aed7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c5052ae3f66764832a98557589dc543b') in 0.006974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Horse3D_Ver4_Saddled.prefab
+  artifactKey: Guid(c51cf7a45da6d864099096b4df226bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Horse3D_Ver4_Saddled.prefab using Guid(c51cf7a45da6d864099096b4df226bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b8114b16ddf4756826e52ac3f8d1ed3b') in 0.106608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 571
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_Brown_02.prefab
+  artifactKey: Guid(25fb8eab05388d248bc5c7fe6baa272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_Brown_02.prefab using Guid(25fb8eab05388d248bc5c7fe6baa272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '46ca52cf7fe54dcf50ad79867d0e026c') in 0.076468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1579
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled With ReactiveRider/LPHorse_RR_White_02.prefab
+  artifactKey: Guid(88cb5130e46768b46bd54158bd74ed4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled With ReactiveRider/LPHorse_RR_White_02.prefab using Guid(88cb5130e46768b46bd54158bd74ed4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce261baa1b25af21bcae9942703bd21a') in 0.041615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1097
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_Chestnut_01 Variant.prefab
+  artifactKey: Guid(7ffa11a388df3cf43bec5cf1cdab2a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Not Saddled/LP_Horse_Mesh_2_9_Chestnut_01 Variant.prefab using Guid(7ffa11a388df3cf43bec5cf1cdab2a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6be511c3f17a9b88cad2a3895c614af7') in 0.035564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1043
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Materials/Body_ChestnutBlack.mat
+  artifactKey: Guid(82a3443d5e9512b44acadc2d8fc5f8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Materials/Body_ChestnutBlack.mat using Guid(82a3443d5e9512b44acadc2d8fc5f8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7d1deba0d31b3e73de26a93d11e3a0e6') in 0.012717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Black.fbx
+  artifactKey: Guid(bba15a401835a274586eb834aaa72480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Black.fbx using Guid(bba15a401835a274586eb834aaa72480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b6ec85fa5c52e4af99c2d325b52aa505') in 0.016763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fd5fc82baa59484280aa5d29563d054a') in 0.009383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Drone/prefab/drone orange Variant.prefab
+  artifactKey: Guid(b8c5de00063898242910230cb837de87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/prefab/drone orange Variant.prefab using Guid(b8c5de00063898242910230cb837de87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e7f3cff66eb9aa9103320f3b8e877a7b') in 0.046444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 231
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Materials/Body_BayBlack.mat
+  artifactKey: Guid(e22b863a5dcfa614c861bf4ec58a498b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Materials/Body_BayBlack.mat using Guid(e22b863a5dcfa614c861bf4ec58a498b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b5d430c9a53c1964649a1a71120c1ab8') in 0.014561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Horse3D_Opt_Ver4.fbx
+  artifactKey: Guid(233b230b862737048af21a9549932a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Horse3D_Opt_Ver4.fbx using Guid(233b230b862737048af21a9549932a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b961e1d95721f61394d6d615f3ef7fb8') in 0.087409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 298
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7a0523b0a142a2e037c10d57186ce454') in 0.019033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_GreenNeon.fbx
+  artifactKey: Guid(b61e71f8bc623f243a4827373631ed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_GreenNeon.fbx using Guid(b61e71f8bc623f243a4827373631ed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '23d059d07c0b0ae20fce8be972821f07') in 0.018125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Purple.fbx
+  artifactKey: Guid(05230f4f275270a4b9150087d3d07d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Purple.fbx using Guid(05230f4f275270a4b9150087d3d07d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6deedc8c3c0acab4d1315490d4641de6') in 0.016305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Materials/Eye_Brown_Mat.mat
+  artifactKey: Guid(9d993237ffd2d634193d3e2c200a1569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Materials/Eye_Brown_Mat.mat using Guid(9d993237ffd2d634193d3e2c200a1569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a2c46b99e22fc7914139d50d24bcabfd') in 0.022651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled With ReactiveRider/LPHorse_RR_White_01.prefab
+  artifactKey: Guid(147bf95e958535a43bde165141e915f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled With ReactiveRider/LPHorse_RR_White_01.prefab using Guid(147bf95e958535a43bde165141e915f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c30338709d277cfc736e02cdeb80ddc2') in 0.040738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1097
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2b01e3eecdef26316dd9d6f5da7aefae') in 0.053495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3d038e9fd47313295817c2790c1e43f1') in 0.218423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_White_01.prefab
+  artifactKey: Guid(1c4434125d1e6f84396088a21d9286fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_White_01.prefab using Guid(1c4434125d1e6f84396088a21d9286fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ceb9198e56c50a325bf1a36d952363ab') in 0.035716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1579
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Materials/Body_BlackWhite.mat
+  artifactKey: Guid(2bd1de7c10c201243899904975e2262d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Materials/Body_BlackWhite.mat using Guid(2bd1de7c10c201243899904975e2262d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dc6f709f3eefb7696a07bff298993cf1') in 0.010526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Cyan.fbx
+  artifactKey: Guid(6a74a937c6f7a534aaa76ee893d9ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_Cyan.fbx using Guid(6a74a937c6f7a534aaa76ee893d9ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9dda67eef30dacdd49fbe005dfbc3ced') in 0.011681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Materials/Body_ChestnutWhite.mat
+  artifactKey: Guid(ed885e0135209ea4dbd6e37fc723874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_31/Horse3D/Materials/Body_ChestnutWhite.mat using Guid(ed885e0135209ea4dbd6e37fc723874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0aa4b0d91bb7d6de9b1ddf30b7a7149f') in 0.012059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_Chestnut_01.prefab
+  artifactKey: Guid(7b74409967c03ed43a5f87aa026fc295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_Chestnut_01.prefab using Guid(7b74409967c03ed43a5f87aa026fc295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ecc5a4c788431a5f6daec0872617ec31') in 0.035908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1579
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_YinYang.fbx
+  artifactKey: Guid(6b4e336501cde914f9c42053018abd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Snowconesolid Assets/Super Rubber Duck Pack/Mesh/RubberDuck_YinYang.fbx using Guid(6b4e336501cde914f9c42053018abd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '907749457a3139899e6b194842cc60fd') in 0.013731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '621b716fc1b67d32f4504a37c96c213d') in 0.366668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/_TerrainAutoUpgrade/Fantasy Forest Environment Free Sample/Materials/bark01_bottom.mat
+  artifactKey: Guid(7e56b6e37c078ed47b6d0e9d9249ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/Fantasy Forest Environment Free Sample/Materials/bark01_bottom.mat using Guid(7e56b6e37c078ed47b6d0e9d9249ea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e319b9a7612c8e1d1b8181aef901bcd1') in 0.072925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_Brown_01.prefab
+  artifactKey: Guid(cee879f397ea9d749940d2fd8aacf242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LPHorse_Version_2_9/Version_2_9/Prefabs/Saddled/LPHorse_Saddled_Brown_01.prefab using Guid(cee879f397ea9d749940d2fd8aacf242) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b9e545ec22685a52d360c7ae3cda8ff') in 0.037984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1577
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x3066c7000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.404 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.636 seconds
+Domain Reload Profiling: 2040ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1636ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (885ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (718ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3125 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3684.
+Memory consumption went from 147.8 MB to 147.7 MB.
+Total: 7.014667 ms (FindLiveObjects: 0.426833 ms CreateObjectMapping: 0.133917 ms MarkObjects: 6.345166 ms  DeleteObjects: 0.108042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
